@@ -1,0 +1,8 @@
+{
+    "placeholder_noData": "No data",
+    "placeholder_noMore": "No more",
+    "refresh_header_idle": "Pull down to refresh",
+    "refresh_header_pulling": "Release to refresh",
+    "refresh_header_refreshing": "Loading...",
+    "refresh_footer_refreshing": "Loading..."
+}
