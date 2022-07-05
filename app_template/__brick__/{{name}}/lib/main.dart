@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'app.dart';
 import 'support_files/router.dart';
 
 void main() {
   runApp(const {{name.pascalCase()}}App());
+  
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 }
 
 class {{name.pascalCase()}}App extends StatelessWidget {
